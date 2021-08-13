@@ -1,0 +1,21 @@
+@import "./Partials/Variables";
+@import "./Partials/Header";
+@import "./Partials/Nav";
+@import "./Partials/MainIndex";
+@import "./Partials/MainNuestraHistoria";
+@import "./Partials/MainRecetas";
+@import "./Partials/MainNuestrosProductos";
+@import "./Partials/MainContactenos";
+@import "./Partials/Footer";
+@import "./Partials/MediaQuerrysPequeñas";
+@import "./Partials/MediaQuerrysGrandes";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+#Main__QuitaEstilos {
+    list-style-type: none;
+}
+
+

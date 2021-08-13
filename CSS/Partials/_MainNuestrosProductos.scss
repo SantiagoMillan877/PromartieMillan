@@ -1,0 +1,29 @@
+.Main{
+    &__DistanciaProductos {
+        margin: 2em;
+    }
+    &__TituloProductos{
+        font-family: 'Staatliches';
+        letter-spacing: 0.7em;
+        padding: 1em 0em 1em 0em;
+    }
+    &__TextoProductos{
+        color: $Negro(0, 0, 0);
+        font-size: 1.1em;
+        padding: 2em;
+        border: solid $Negro 0.3em;
+        box-shadow: 0 0 0 0.5em $Negro(0, 0, 0);
+        margin: 1  
+    }
+    &__SubtituloProductos--Normales{
+        color: $Blanco;
+        font-style: italic;
+        padding: 1em 1em 0em 1em; 
+    }
+    &__SubtituloProductos--Cabeceras {
+        color: $Blanco;
+        font-style: italic;
+        padding: 0em 1em 0em 1em;
+    }
+
+}

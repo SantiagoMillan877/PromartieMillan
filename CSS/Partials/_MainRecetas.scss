@@ -1,0 +1,29 @@
+.Main {
+    &__TituloRecetas{
+        font-size: 1.5em;
+        font-family: monospace;
+        letter-spacing: 0.1em;
+        margin: 1em 0em 1em 1em;
+    }
+    &__CartaReceta {
+        margin: 1em 2em 1em 2em;
+    }
+    &__IngredientesPasos {
+        color: $Blanco;
+        font-family: cursive;    
+    }
+    &__TitulosRecetas{
+        font-size: 1.5em;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 0.2em;
+        margin: 1em 0em 0em 1em;
+    }
+    &__SubtitulosRecetas{
+        font-size: 1.6em;
+        font-style: italic;
+        letter-spacing: 0.1em;
+    }
+    &__ImagenesRecetas{
+        padding: 1em;
+    }
+}
