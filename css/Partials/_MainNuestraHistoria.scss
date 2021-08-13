@@ -1,0 +1,20 @@
+.Main{
+    &__TituloHistoria{
+        font-family: monospace;
+        letter-spacing: 0.2em;
+        font-size: 1.7em;
+        font-style: italic;
+        margin: 1em 0em 1em 1em;
+    }
+    &__ParrafoHistoria {
+        color: $Blanco;
+        font-family: cursive;
+        font-size: 1.05em;
+    }
+    &__CartasHistoria {
+        margin: 1em 2em 1em 2em;
+    }
+    &__ImagenHistoria{
+        padding: 1em;
+    }
+}
