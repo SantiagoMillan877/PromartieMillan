@@ -1,18 +1,27 @@
+/* Propiedades cambiadas en Seccion Index*/
 .Main{
+    /* Propiedas del Titulo */
     &__Encabezado {
         font-family: math;
         letter-spacing: 0.8em;
         font-weight: 1000;
         font-style: italic;
     }
+    /* Fin de Propiedas del Titulo */
+    /* Separacion de las Cartas Superiores e Inferiores */
     &__CartasSuperiores{
         margin: 5% 0 5%;
     }
     &__CartasInferiores{
         margin: 0 0 5%;
     }
+     /* Fin de Separacion de las Cartas Superiores e Inferiores */
+     /* Propiedades de las cartas*/
     &__TamañoCartas{
         margin: 0 0 10%;
         color: $Blanco;
      }
+     /* Fin de Propiedades de las cartas*/
 }
+/* Fin de Propiedades cambiadas en Seccion Index*/
+

@@ -1,25 +1,28 @@
+/* Propiedades de los elementos del Footer*/
 .Footer{
+    align-items: baseline;
+    /* Propiedades del texto Copyright*/
     &__Copyright {
         color: $Blanco;
+        margin: 0 0 0 0.5em;
+        font-size: 0.8em;
     }
-    &__DifuminadoIconos {
-        padding: 0;
-        margin: 0;
-    }
+    /* Fin de Propiedades del texto Copyright*/
+    /*Propiedades de iconos informativos*/
     &__TamañoIconos--TAAC{
         width: ($porcentajetotal);
     }
     &__TamañoIconos--Kosher {
-        width: ($porcentajetotal);
+        width: ($porcentajetotal)-30;
     }
+    /* Fin de Propiedades de iconos informativos*/
+    /* Propiedades de iconos de Redes Sociales*/
     &__IconosRedes{
         display: inline-block;
         width: ($porcentajetotal);
         text-align: center;
         &--Animacion{
             display: block;
-            border-radius: ($porcentajetotal/2);
-            background-color: #333;
             color: $Blanco;
             line-height: 1.8em;
             font-size: 18px;
@@ -31,4 +34,12 @@
             filter: none;
         }
     }
+    &__RedesSociales {
+        margin: 0;
+    }
+    &__DivIconos {
+        margin: 0 0 0 1em;
+    }
+    /* Fin de Propiedades de iconos de Redes Sociales*/
 }
+/* Fin de Propiedades de los elementos del Footer*/

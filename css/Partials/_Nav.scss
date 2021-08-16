@@ -1,19 +1,21 @@
+/* Propiedades de los elementos del Nav*/
 .Nav{
     background-color: #074b2b;
     background-image: url(../imagenes/FondoNav.png);
     align-items: baseline;
+    /* Propiedades de la publicidad*/
     &__Anuncio{
         width: ($porcentajetotal);
         height: 3em;
     }
+    /* Fin de Propiedades de la publicidad*/
+    /* Dimensiones de los Botones en el nav*/
     &__Dimensiones {
         height: ($porcentajetotal);
         width: ($porcentajetotal);
-        &--Ul {
-            height: ($porcentajetotal);
-            width: ($porcentajetotal);
-        }
     }
+    /* Fin de Dimensiones de los Botones en el nav*/
+    /* Propiedades de los botones*/
     &__Botones{
         padding: 1em;
         color: $Blanco;
@@ -28,3 +30,5 @@
 .btn-dark{
     color: $Blanco !important;
 }
+/* Fin de Propiedades de los botones*/
+/* Fin de Propiedades de los elementos del Nav*/

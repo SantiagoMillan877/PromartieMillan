@@ -1,36 +1,56 @@
+/* Propiedades cambiadas a partir de 992px*/
 @media only screen and (min-width: 992px){
+    /* Tamaño de los ancor en los logos*/
     .Header__Ancor{
         width: ($porcentajetotal/10)+2;
     }
+    /* Fin de Tamaño de los ancor en los logos */
     .Main {
+        /* Nuestra Historia */
+         /* Tamaño de las imagenes */
         &__ImagenHistoria{
             width:($porcentajetotal/2);
         }
+        /* Fin de Tamaño de las imagenes */
+        /* Tamaño de las letras */
         &__ParrafoHistoria{
             font-size: 0.8em;
         }
+        /* Fin de Tamaño de las letras */
+        /* Fin de Nuestra Historia */
     }   
     .Footer{
+         /* Tamaño de los iconos informativos*/
         &__TamañoIconos--Kosher{
-            width: ($porcentajetotal/2)-20;
+            width: ($porcentajetotal/2)-25;
         }
         &__TamañoIconos--TAAC{
             width:($porcentajetotal/2)-10;
         }
-        &__IconosRedes{
-            &--Animacion{
-                line-height: 2em;
-                width: ($porcentajetotal/2)-10;
-            }
+         /* Fin de Tamaño de los iconos informativos*/
+         /* Tamaño del copyright*/
         }
+        &__Copyright {
+                margin: 0 0 0 5em;
+                width: 35%;
+        }
+        /* Fin de Tamaño del copyright*/
+        
     }
-}
+    /* Fin de Propiedades cambiadas a partir de 992px*/
+    /* Propiedades cambiadas a partir de 1200px*/
 @media only screen and (min-width: 1200px){
     .Main{
+        /* Contactenos */
+        /* Tamaño del mapa*/
         &__Mapa{
             width: ($porcentajetotal)-20;
             margin: 0em 0em 2em 8em;
         }
+        /* Fin de Tamaño del mapa*/
+        /* Fin de Contactenos */
+        /* Nuestros Productos */
+        /* Tamaño de textos */
         &__TextoProductos{
             font-size:1.5em ;
          }
@@ -39,6 +59,10 @@
             letter-spacing: 1em;
             padding: 1em 0em 1em 0em;
         }
+        /* Fin de Tamaño de textos */
+        /* Fin de Nuestros Productos */
+        /* Nuestra Historia */
+        /* Tamaño de letras */
         &__TituloHistoria{
             font-size: 2em;
             letter-spacing: 0.3em;
@@ -46,60 +70,95 @@
         &__ParrafoHistoria{
             font-size: 1em;
         }
+        /* Fin de Tamaño de letras */
+        /* Fin de Nuestra Historia */
+        /* Recetas */
+        /* Tamaño de Titulo */
         &__TituloRecetas{
             font-size: 1.7em;
             letter-spacing: 0.3em;
         }
+        /* Fin de Tamaño de Titulo */
+        /* Separacion de cartas */
         &__CartaReceta {
             margin: 1em 1em 1em 1em;
         }
+        /* Fin de Separacion de cartas */
+        /* Fin de Recetas */
     }
+     /* Tamaño de los iconos informativos*/
+    .Footer{
+        &__TamañoIconos--Kosher{
+            width: ($porcentajetotal/5);
+        }
+        &__TamañoIconos--TAAC{
+            width:($porcentajetotal/2)-15;
+        }
+    }
+     /* Fin de Tamaño de los iconos informativos*/
 }
+/* Fin de Propiedades cambiadas a partir de 1200px*/
+/* Propiedades cambiadas a partir de 1600px*/
 @media only screen and (min-width: 1600px){
+    /* Tamaño de los ancor en los logos*/
     .Header__Ancor{
         width: ($porcentajetotal/10)-3;
     }
+    /* Fin de Tamaño de los ancor en los logos*/
     .Main{
+        /* Contactenos */
         &__Mapa{
             width:($porcentajetotal)-20;
             margin: 0em 0em 2em 20em;
         } 
+         /* Fin de Contactenos */
+         /* Nuestros Productos */
         &__TextoProductos{
             margin: 2em;
         } 
         &__TituloProductos{
             padding: 1em 0em 1em 3em;
             letter-spacing: 0.7 em;
-        } 
+        }
+         /* Fin de Nuestros Productos */
+         /* Nuestra Historia */ 
         &__ParrafoHistoria{
             font-size: 1.3em;
-        }     
+        }
+        /* Fin de Nuestra Historia */      
     }
     .Footer{
-        &__TamañoIconos--Kosher{
-            width: ($porcentajetotal/4);
-        }
-        &__TamañoIconos--TAAC{
-            width: ($porcentajetotal/4)+10;
-        }
-        &__IconosRedes{
-            &--Animacion{
-                line-height: 3em;
-                width: ($porcentajetotal/2)-10;
-            }
-        }
+        /* Tamaño de letras */ 
+        font-size: 2em;
     }  
+    .fab {
+        font-size: 200%;
+    }
+         /* Fin de Tamaño de letras */ 
 }
+/* Fin de Propiedades cambiadas a partir de 1600px*/
+/* Propiedades cambiadas a partir de 2000px*/
 @media only screen and (min-width: 2000px){
     .Main{
+        /* Nuestra Historia */
+        /* Tamaño del texto */
         &__ParrafoHistoria{
             letter-spacing: 0.4em;
         }
+        /* Fin de Tamaño del texto */
+        /* Fin de Nuestra Historia */
+        /* Recetas */
+        /* Tamaño de letras */
         &__TituloRecetas{
             font-size: 2em;
         }
+        /* Fin de Tamaño de letras */
+        /* Tamaño de cartas */
         &__CartaReceta{
             width:($porcentajetotal)-20;
         }
+        /* Fin de Tamaño de cartas */
+        /* Fin de Recetas */
     }
 }
+/* Fin de Propiedades cambiadas a partir de 2000px*/

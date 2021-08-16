@@ -1,20 +1,30 @@
+/* Propiedades cambiadas en Seccion Nuestros Productos*/
 .Main{
+    /* Separacion entre cuadros de productos*/
     &__DistanciaProductos {
         margin: 2em;
     }
+    /* Fin de Separacion entre cuadros de productos*/
+    /* Propiedades de los nombres de lineas*/
     &__TituloProductos{
         font-family: 'Staatliches';
         letter-spacing: 0.7em;
         padding: 1em 0em 1em 0em;
     }
+    /* Fin de Propiedades de los nombres de lineas*/
+    /* Propiedades de los textos*/
     &__TextoProductos{
-        color: $Negro(0, 0, 0);
+        color: $Blanco;
         font-size: 1.1em;
         padding: 2em;
-        border: solid $Negro 0.3em;
+        background-color: $Negro;
+        border: solid $BordesColor 0.3em;
         box-shadow: 0 0 0 0.5em $Negro(0, 0, 0);
-        margin: 1  
+        margin: 1;
+        list-style-type: none;
     }
+    /* Propiedades de los textos*/
+    /* Propiedades de los subtitulos en los cuadros*/
     &__SubtituloProductos--Normales{
         color: $Blanco;
         font-style: italic;
@@ -25,5 +35,11 @@
         font-style: italic;
         padding: 0em 1em 0em 1em;
     }
-
+     /* Fin de Propiedades de los subtitulos en los cuadros*/
+     /* Propiedades de las listas en los cuadros*/
+    &__ListasProductos {
+        list-style-type: none;
+    }
+    /* Fin de Propiedades de las listas en los cuadros*/
 }
+/* Fin de Propiedades cambiadas en Seccion Nuestros Productos*/

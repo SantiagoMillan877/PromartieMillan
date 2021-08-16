@@ -1,193 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="keywords" content="Promartie, Encurtidos, Recetas, Como Preparar, Ingredientes de">
-        <meta name="description" content="Algunas recetas que puede realizar con productos de Promartie">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <script src="https://kit.fontawesome.com/a376ce6e31.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="../css/index.css">
-        <title>Recetas</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Promartie, Encurtidos, Recetas, Como Preparar, Ingredientes de">
+    <meta name="description" content="Algunas recetas que puede realizar con productos de Promartie">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a376ce6e31.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Recetas</title>
+</head>
+
 <body>
+    <!-- Header -->
     <header class="container-fluid bg-dark">
         <div class="navbar navbar-dark navbar-expand-md ">
-          <a class="Header__Ancor col-5  col-md-2 " href="../index.html">
-            <img src="../imagenes/FINIS.png" alt="LogoFini" class="Header__Logo">
-        </a>
-        <a class="Header__Ancor col-5 offset-2 col-md-2" href="../index.html">
-            <img src="../imagenes/FINISANCHOA.png" alt="LogoFiniAnchoa" class="Header__Logo">
-        </a> 
-       
-      
-        <a class= "Header__Ancor col-5  col-md-2 offset-md-2" href="../index.html">
-            <img src="../imagenes/MARDELASNIEVES.png" alt="LogoMarDeLasNieves" class="Header__Logo">
-        </a>
-        <a class="Header__Ancor col-5 offset-2 col-md-2" href="../index.html">
-            <img src="../imagenes/Logotipo.png" alt="LogoLatillan" class="Header__Logo"> 
-        </a>      
-              <div class="col-12">
-                <button class="navbar-toggler boton " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toogle navigation">
+            <!-- Logotipos De la Empresa -->
+            <a class="Header__Ancor col-5  col-md-2 " href="../index.html">
+                <img src="../imagenes/FINIS.png" alt="LogoFini" class="Header__Logo">
+            </a>
+            <a class="Header__Ancor col-5 offset-2 col-md-2" href="../index.html">
+                <img src="../imagenes/FINISANCHOA.png" alt="LogoFiniAnchoa" class="Header__Logo">
+            </a>
+
+
+            <a class="Header__Ancor col-5  col-md-2 offset-md-2" href="../index.html">
+                <img src="../imagenes/MARDELASNIEVES.png" alt="LogoMarDeLasNieves" class="Header__Logo">
+            </a>
+            <a class="Header__Ancor col-5 offset-2 col-md-2" href="../index.html">
+                <img src="../imagenes/Logotipo.png" alt="LogoLatillan" class="Header__Logo">
+            </a>
+            <!-- Fin de Logotipos De la Empresa -->
+            <!-- Boton Desplegable Para Secciones (Moviles) -->
+            <div class="col-12">
+                <button class="navbar-toggler boton " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toogle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-              </div>
+            </div>
+            <!-- Fin del Boton Desplegable Para Secciones (Moviles) -->
         </div>
     </header>
+    <!-- Fin del header -->
+    <!-- Estructura Principal de la Pagina --> 
     <div class="container-fluid  row gx-0">
+        <!-- Nav -->
         <nav class="navbar nav-pills navbar-expand-md  col-md-4 col-lg-4 col-xl-3 Nav">
             <div class="collapse navbar-collapse col-12 col-md-5 Nav__Dimensiones" id="navbarToggleExternalContent">
-                <ul  class="nav nav-pills nav-flex flex-column Nav__Dimensiones">
+                <!-- Botones de Navegacion hacia las Secciones -->
+                <ul class="nav nav-pills nav-flex flex-column Nav__Dimensiones">
                     <li class="nav-item Nav__Botones sticky-md-top Nav__Botones--Altura1">
-                        <a href="../index.html" class="btn btn-dark btn-lg nav nav-flex flex-column active" role="button" aria-pressed="true">Inicio</a>
+                        <a href="../index.html" class="btn btn-dark btn-lg nav nav-flex flex-column active"
+                            role="button" aria-pressed="true">Inicio</a>
                     </li>
                     <li class="nav-item Nav__Botones sticky-md-top Nav__Botones--Altura2">
-                        <a href="NuestraHistoria.html" class="btn btn-dark btn-lg nav nav-flex flex-column active " role="button" aria-pressed="true">Nuestra Historia</a>
+                        <a href="NuestraHistoria.html" class="btn btn-dark btn-lg nav nav-flex flex-column active "
+                            role="button" aria-pressed="true">Nuestra Historia</a>
                     </li>
                     <li class="nav-item Nav__Botones sticky-md-top Nav__Botones--Altura3">
-                        <a href="Recetas.html" class="btn btn-dark btn-lg nav nav-flex flex-column active " role="button" aria-pressed="true">Recetas</a>
+                        <a href="Recetas.html" class="btn btn-dark btn-lg nav nav-flex flex-column active "
+                            role="button" aria-pressed="true">Recetas</a>
                     </li>
-                    <div class="dropdown Nav__Botones sticky-md-top Nav__Botones--Altura4"> 
-                        <a class="btn btn-dark btn-lg dropdown-toggle nav-link active bg-dark " role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false" aria-pressed="true" > 
+                    <!-- Menu Colapsable de Navegación -->
+                    <div class="dropdown Nav__Botones sticky-md-top Nav__Botones--Altura4">
+                        <a class="btn btn-dark btn-lg dropdown-toggle nav-link active bg-dark " role="button"
+                            id="dropdownMenuLink" data-bs-toggle="dropdown" data-bs-display="static"
+                            aria-expanded="false" aria-pressed="true">
                             Nuestros Productos
-                          </a>
-                        <ul  class="dropdown-menu dropdown-menu-dark dropdown-menu-start Nav__MenuDesplegable " aria-labelledby="dropdownMenuLink">
-                            <li >
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-start Nav__MenuDesplegable "
+                            aria-labelledby="dropdownMenuLink">
+                            <li>
                                 <a class="dropdown-item" href="NuestrosProductos.html">Línea Estandar</a>
                             </li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li>
                                 <a class="dropdown-item" href="NuestrosProductos.html">Línea Premium</a>
                             </li>
-                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
                             <li>
                                 <a class="dropdown-item" href="NuestrosProductos.html">Línea Parrilera</a>
                             </li>
-                        </ul> 
-                    </div> 
+                        </ul>
+                    </div>
+                    <!--Fin Del Menu Colapsable de Navegación -->
                     <li class="nav-item Nav__Botones sticky-md-top Nav__Botones--Altura5">
-                        <a class="btn btn-dark btn-lg active nav nav-flex flex-column" role="button" aria-pressed="true" href="Contactenos.html">Contáctenos</a>
+                        <a class="btn btn-dark btn-lg active nav nav-flex flex-column" role="button" aria-pressed="true"
+                            href="Contactenos.html">Contáctenos</a>
                     </li>
                 </ul>
+                <!-- Fin de los Botones de Navegacion hacia las Secciones -->
             </div>
+            <!-- Publicidad Para Moviles -->
             <img class="Nav__Anuncio col-md-5" src="../imagenes/PublicidadCelu.png" alt="PUBLICIDAD">
+            <!-- Fin de Publicidad Para Moviles -->
         </nav>
+        <!-- Fin del Nav -->
+        <!-- Main -->
         <main class="Main col-md-8 col-lg-8 col-xl-9 d-flex flex-column align-items-center">
-            <h2 class="Main__TituloRecetas">Deleitese con cualquiera de estas recetas, no se olvide del ingrediente Promartie para hacerlas especiales</h2>
-            <div class="d-flex flex-column flex-xl-row ">
+            <!-- Titulo -->
+            <h2 class="Main__TituloRecetas">Deleitese con cualquiera de estas recetas, no se olvide del ingrediente
+                Promartie para hacerlas especiales</h2>
+            <!-- Fin de Titulo -->
+            <!-- Par de Cartas -->
+            <div class="d-flex flex-column flex-xl-row "> TitulosRecetas
+                <!-- Carta -->
                 <div>
-                <h3 class="Main__TitulosRecetas">Carrilleras de Cerdo con Chucrut</h3>
-                <div class="Main__CartaReceta card bg-dark">
-                    <img src="../imagenes/Receta1.jpg" alt="Plato de Carrilleras de Cerdo con Chucrut" class="Main__imagenesRecetas card-img-top">
-                    <div class="Main__IngredientesPasos d-flex flex-column flex-md-row card-body">
-                        <div class=" card-text">
-                            <h5 class="Main__SubtitulosRecetas">Ingredientes</h5>
-                            <ul >
-                                <li>8 Carrilleras de cerdo</li>
-                                <li>2 Cebollas</li>
-                                <li>1 Puerro</li>
-                                <li>1 Copa de Vino Tinto</li>
-                                <li>Sal</li>
-                                <li>Pimienta</li>
-                                <li>2 Hojas de Laurel</li>
-                                <li>Vinagreta</li>
-                                <li>1 Zanahoria</li>
-                                <li>Aceite de Oliva</li>
-                                <li>15 Clavos(Especia)</li>
-                                <li>1 pizca de comino</li>
-                                <li>50 Gr de Chocolate</li>
-                                <li>1 Copa de Vino de Jerez</li>
-                                <li>1 Rama de Tomillo</li>
-                                <li>Chucrut Latillan</li>
-                            </ul>
-                        </div>
-                        <div class="card-text">
-                            <h5 class="Main__SubtitulosRecetas">Pasos a Seguir</h5>
-                            <ol>
-                                <li>Sazona las carrilleras y dóralas en la olla con un chorro de aceite.</li>
-                                <li>Pela y pica la zanahoria, el puerro y las cebollas.</li>
-                                <li>Retira las carrilleras de la olla y ahí mismo agrega una rama de tomillo, una hoja de laurel y las verduras picadas.</li>
-                                <li>Sofríe todo e incorpora de nuevo las carrilleras, adereza con unos granos de pimienta y clavo.</li>
-                                <li>Añade el chocolate troceado y riega con los dos vinos y sazona.</li>
-                                <li>Vierte un poco de agua, cierra la olla y cocínalo durante 25 minutos desde que empieza a salir el vapor.</li>
-                                <li>Retira las carrilleras a otra cazuela, cuela la salsa e incorpórala a las carrilleras.</li>
-                                <li>Pon de nuevo al fuego durante 10 minutos para que la salsa se caramelice.</li>
-                                <li> Sirve las carrilleras y chucrut y salsea a tu gusto.</li>
-                            </ol>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                <div>
-                <h3 class="Main__TitulosRecetas">Ensalada de Garbanzos y Aceitunas</h3>
-                <div class="Main__CartaReceta card bg-dark">
-                    <img src="../imagenes/Receta2.jpg" alt="Plato de Ensalada de Garbanzos y Aceitunas" class="Main__imagenesRecetas card-img-top">
-                    <div class="Main__IngredientesPasos d-flex flex-column flex-md-row card-body" >
-                    <div class=" card-text">
-                            <h5 class="Main__SubtitulosRecetas">Ingredientes</h5>
-                            <ul>
-                                <li>1 Lechuga</li>
-                                <li>1 Cebolla</li>
-                                <li>Vinagre</li>
-                                <li>150 Gr de Garbanzos Cocidos</li>
-                                <li>Aceite de Oliva Extra Virgen</li>
-                                <li>Sal</li>
-                                <li>8 Aceitunas Verdes Descarozadas Latillan</li>
-                                <li>8 Aceitunas Negras Descarozadas Latillan</li>
-                            </ul>
-                        </div>
-                        <div class=" card-text">
-                            <h5 class="Main__SubtitulosRecetas">Pasos a Seguir</h5>
-                            <ol>
-                                <li>Lava la lechuga, seca, trocea y ponla en una fuente grande.</li>
-                                <li>Pica la cebolleta en juliana y agrégala.</li>
-                                <li>Agrega también los garbanzos y las aceitunas (cortadas por la mitad).</li>
-                                <li>Adereza con aceite, vinagre y sal. Sirve la ensalada de garbanzos y aceitunas.</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="d-flex flex-column flex-xl-row ">
-                <div>
-                <h3 class="Main__TitulosRecetas">Salteado de Corazones de Alcaucil</h3>
-                <div class="Main__CartaReceta card bg-dark">
-                    <img src="../imagenes/Receta3.jpg" alt="Plato de Salteado de Corazones de Alcaucil" class="Main__imagenesRecetas card-img-top">
-                    <div class="Main__IngredientesPasos d-flex flex-column flex-md-row card-body">
-                        <div class=" card-text">
-                            <h5 class="Main__SubtitulosRecetas">Ingredientes</h5>
-                            <ul>  
-                                <li>1 Cebolla</li>
-                                <li>1/2 de Ajies Latillan</li>
-                                <li>1/2 Limón</li>
-                                <li>1/2 Cda. de Hojas de Menta</li>
-                                <li>Aceite de oliva para saltear</li>
-                                <li>Sal</li>
-                                <li>Pimienta</li>
-                                <li>Corazones de Alcaucil Latillan</li>
-                            </ul>
-                        </div>
-                        <div class=" card-text">
-                            <h5 class="Main__SubtitulosRecetas">Pasos a Seguir</h5>
-                            <ol>
-                                <li>Rehogá la cebolla cortada en pluma.</li>
-                                <li>Cuando esté blanda espolvoreala con azúcar, sal y pimienta y cocinala 10 minutos más para caramelizarla.</li>
-                                <li>Aparte, salteá el ají cortado en cubitos.</li>
-                                <li>Incorporá los corazones de alcaucil cortados en cuartos y seguí cocinando un par de minutos más.</li>
-                                <li>Retirá del fuego, rociá con el jugo de limón, salpimentá y mezclá con la cebolla.</li>
-                                <li>Espolvoreá con menta picada antes de servir.</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                <div>
-                    <h3 class="Main__TitulosRecetas">Hamburguesas de Lupines y Tempeh</h3>
+                    <!-- Nombre Receta -->
+                    <h3 class="Main__NombreRecetas">Carrilleras de Cerdo con Chucrut</h3>
+                    <!--Fin de Nombre Receta -->
                     <div class="Main__CartaReceta card bg-dark">
-                        <img src="../imagenes/Receta4.jpg" alt="Plato con Hamburguesa de Lupines y Tempeh" class="Main__imagenesRecetas card-img-top">
+                        <!-- Imagen Receta -->
+                        <img src="../imagenes/Receta1.jpg" alt="Plato de Carrilleras de Cerdo con Chucrut"
+                            class="Main__imagenesRecetas card-img-top">
+                        <!-- Fin de Imagen Receta -->
                         <div class="Main__IngredientesPasos d-flex flex-column flex-md-row card-body">
+                            <!-- Ingredientes -->
+                            <div class=" card-text">
+                                <h5 class="Main__SubtitulosRecetas">Ingredientes</h5>
+                                <ul>
+                                    <li>8 Carrilleras de cerdo</li>
+                                    <li>2 Cebollas</li>
+                                    <li>1 Puerro</li>
+                                    <li>1 Copa de Vino Tinto</li>
+                                    <li>Sal</li>
+                                    <li>Pimienta</li>
+                                    <li>2 Hojas de Laurel</li>
+                                    <li>Vinagreta</li>
+                                    <li>1 Zanahoria</li>
+                                    <li>Aceite de Oliva</li>
+                                    <li>15 Clavos(Especia)</li>
+                                    <li>1 pizca de comino</li>
+                                    <li>50 Gr de Chocolate</li>
+                                    <li>1 Copa de Vino de Jerez</li>
+                                    <li>1 Rama de Tomillo</li>
+                                    <li>Chucrut Latillan</li>
+                                </ul>
+                            </div>
+                            <!-- Fin de Ingredientes -->
+                            <!-- Preparación -->
+                            <div class="card-text">
+                                <h5 class="Main__SubtitulosRecetas">Pasos a Seguir</h5>
+                                <ol>
+                                    <li>Sazona las carrilleras y dóralas en la olla con un chorro de aceite.</li>
+                                    <li>Pela y pica la zanahoria, el puerro y las cebollas.</li>
+                                    <li>Retira las carrilleras de la olla y ahí mismo agrega una rama de tomillo, una
+                                        hoja de laurel y las verduras picadas.</li>
+                                    <li>Sofríe todo e incorpora de nuevo las carrilleras, adereza con unos granos de
+                                        pimienta y clavo.</li>
+                                    <li>Añade el chocolate troceado y riega con los dos vinos y sazona.</li>
+                                    <li>Vierte un poco de agua, cierra la olla y cocínalo durante 25 minutos desde que
+                                        empieza a salir el vapor.</li>
+                                    <li>Retira las carrilleras a otra cazuela, cuela la salsa e incorpórala a las
+                                        carrilleras.</li>
+                                    <li>Pon de nuevo al fuego durante 10 minutos para que la salsa se caramelice.</li>
+                                    <li> Sirve las carrilleras y chucrut y salsea a tu gusto.</li>
+                                </ol>
+                            </div>
+                            <!-- Fin de Preparación -->
+                        </div>
+                    </div>
+                </div>
+                <!-- fin de Carta -->
+                <!-- Carta -->
+                <div>
+                    <!--Nombre Receta -->
+                    <h3 class="Main__NombreRecetas">Ensalada de Garbanzos y Aceitunas</h3>
+                    <!--Fin de Nombre Receta -->
+                    <div class="Main__CartaReceta card bg-dark">
+                        <!-- Imagen Receta -->
+                        <img src="../imagenes/Receta2.jpg" alt="Plato de Ensalada de Garbanzos y Aceitunas"
+                            class="Main__imagenesRecetas card-img-top">
+                        <!-- Fin de Imagen Receta -->
+                        <div class="Main__IngredientesPasos d-flex flex-column flex-md-row card-body">
+                            <!-- Ingredientes -->
+                            <div class=" card-text">
+                                <h5 class="Main__SubtitulosRecetas">Ingredientes</h5>
+                                <ul>
+                                    <li>1 Lechuga</li>
+                                    <li>1 Cebolla</li>
+                                    <li>Vinagre</li>
+                                    <li>150 Gr de Garbanzos Cocidos</li>
+                                    <li>Aceite de Oliva Extra Virgen</li>
+                                    <li>Sal</li>
+                                    <li>8 Aceitunas Verdes Descarozadas Latillan</li>
+                                    <li>8 Aceitunas Negras Descarozadas Latillan</li>
+                                </ul>
+                            </div>
+                            <!-- Fin de Ingredientes -->
+                            <!-- Preparación -->
+                            <div class=" card-text">
+                                <h5 class="Main__SubtitulosRecetas">Pasos a Seguir</h5>
+                                <ol>
+                                    <li>Lava la lechuga, seca, trocea y ponla en una fuente grande.</li>
+                                    <li>Pica la cebolleta en juliana y agrégala.</li>
+                                    <li>Agrega también los garbanzos y las aceitunas (cortadas por la mitad).</li>
+                                    <li>Adereza con aceite, vinagre y sal. Sirve la ensalada de garbanzos y aceitunas.
+                                    </li>
+                                </ol>
+                            </div>
+                            <!-- Fin de Preparación -->
+                        </div>
+                    </div>
+                </div>
+                <!-- fin de Carta -->
+            </div>
+            <!-- Fin de Par de Cartas -->
+            <!-- Par de Cartas -->
+            <div class="d-flex flex-column flex-xl-row ">
+                <!-- Carta -->
+                <div>
+                    <!--Nombre Receta -->
+                    <h3 class="Main__NombreRecetas">Salteado de Corazones de Alcaucil</h3>
+                    <!--Fin de Nombre Receta -->
+                    <div class="Main__CartaReceta card bg-dark">
+                        <!-- Imagen Receta -->
+                        <img src="../imagenes/Receta3.jpg" alt="Plato de Salteado de Corazones de Alcaucil"
+                            class="Main__imagenesRecetas card-img-top">
+                        <!-- Fin de Imagen Receta -->
+                        <div class="Main__IngredientesPasos d-flex flex-column flex-md-row card-body">
+                            <!-- Ingredientes -->
+                            <div class=" card-text">
+                                <h5 class="Main__SubtitulosRecetas">Ingredientes</h5>
+                                <ul>
+                                    <li>1 Cebolla</li>
+                                    <li>1/2 de Ajies Latillan</li>
+                                    <li>1/2 Limón</li>
+                                    <li>1/2 Cda. de Hojas de Menta</li>
+                                    <li>Aceite de oliva para saltear</li>
+                                    <li>Sal</li>
+                                    <li>Pimienta</li>
+                                    <li>Corazones de Alcaucil Latillan</li>
+                                </ul>
+                            </div>
+                            <!-- Fin de Ingredientes -->
+                            <!-- Preparación -->
+                            <div class=" card-text">
+                                <h5 class="Main__SubtitulosRecetas">Pasos a Seguir</h5>
+                                <ol>
+                                    <li>Rehogá la cebolla cortada en pluma.</li>
+                                    <li>Cuando esté blanda espolvoreala con azúcar, sal y pimienta y cocinala 10 minutos
+                                        más para caramelizarla.</li>
+                                    <li>Aparte, salteá el ají cortado en cubitos.</li>
+                                    <li>Incorporá los corazones de alcaucil cortados en cuartos y seguí cocinando un par
+                                        de minutos más.</li>
+                                    <li>Retirá del fuego, rociá con el jugo de limón, salpimentá y mezclá con la
+                                        cebolla.</li>
+                                    <li>Espolvoreá con menta picada antes de servir.</li>
+                                </ol>
+                            </div>
+                            <!-- Fin de Preparación -->
+                        </div>
+                    </div>
+                </div>
+                <!-- fin de Carta -->
+                <!-- Carta -->
+                <div>
+                    <!--Nombre Receta -->
+                    <h3 class="Main__NombreRecetas">Hamburguesas de Lupines y Tempeh</h3>
+                    <!--Fin de Nombre Receta -->
+                    <div class="Main__CartaReceta card bg-dark">
+                        <!-- Imagen Receta -->
+                        <img src="../imagenes/Receta4.jpg" alt="Plato con Hamburguesa de Lupines y Tempeh"
+                            class="Main__imagenesRecetas card-img-top">
+                        <!-- Fin de Imagen Receta -->
+                        <div class="Main__IngredientesPasos d-flex flex-column flex-md-row card-body">
+                            <!-- Ingredientes -->
                             <div class=" card-text">
                                 <h5 class="Main__SubtitulosRecetas">Ingredientes</h5>
                                 <ul>
@@ -201,28 +287,43 @@
                                     <li>Aceite de Oliva</li>
                                 </ul>
                             </div>
+                            <!-- Fin de Ingredientes -->
+                            <!-- Preparación -->
                             <div class=" card-text">
                                 <h5 class="Main__SubtitulosRecetas">Pasos a Seguir</h5>
                                 <ol>
                                     <li>Procesar los lupines junto con el tempeh hasta formar una pasta.</li>
                                     <li>Picar el ajo y el perejil.</li>
-                                    <li>En un bol, colocar la pasta, condimentar con el ajo, perejil, sal y pimienta.</li>
-                                    <li>Agregar la harina y amasar, si hace falta, agregar unas gotas de agua para unir la mezcla.</li>
+                                    <li>En un bol, colocar la pasta, condimentar con el ajo, perejil, sal y pimienta.
+                                    </li>
+                                    <li>Agregar la harina y amasar, si hace falta, agregar unas gotas de agua para unir
+                                        la mezcla.</li>
                                     <li>Dividir en bolas y aplastar dando forma de hamburguesa.</li>
                                     <li>Cocinar al horno o a la plancha, con un hilo de aceite de oliva</li>
                                     <li>O se pueden freezar, tanto crudas, como cocidas.</li>
                                 </ol>
                             </div>
+                            <!-- Fin de Preparación -->
                         </div>
                     </div>
                 </div>
+                <!-- fin de Carta -->
             </div>
-                <div class="d-flex flex-column flex-xl-row ">
-                    <div>
-                    <h3 class="Main__TitulosRecetas">Salsa Tartara</h3>
+            <!-- Fin de Par de Cartas -->
+            <!-- Par de Cartas -->
+            <div class="d-flex flex-column flex-xl-row ">
+                <!-- Carta -->
+                <div>
+                    <!--Nombre Receta -->
+                    <h3 class="Main__NombreRecetas">Salsa Tartara</h3>
+                    <!--Fin de Nombre Receta -->
                     <div class="Main__CartaReceta card bg-dark">
-                        <img src="../imagenes/Receta5.jpg" alt="Recipiente con Salsa Tartara" class="Main__imagenesRecetas card-img-top">
+                        <!-- Imagen Receta -->
+                        <img src="../imagenes/Receta5.jpg" alt="Recipiente con Salsa Tartara"
+                            class="Main__imagenesRecetas card-img-top">
+                        <!-- Fin de Imagen Receta -->
                         <div class="Main__IngredientesPasos d-flex flex-column flex-md-row card-body">
+                            <!-- Ingredientes -->
                             <div class=" card-text">
                                 <h5 class="Main__SubtitulosRecetas">Ingredientes</h5>
                                 <ul>
@@ -235,24 +336,38 @@
                                     <li>1/2 Taza de Jugo de Limon.</li>
                                 </ul>
                             </div>
+                            <!-- Fin de Ingredientes -->
+                            <!-- Preparación -->
                             <div class=" card-text">
                                 <h5 class="Main__SubtitulosRecetas">Pasos a Seguir</h5>
                                 <ol>
                                     <li>Escurre las alcaparras y los pepinillos en vinagre y pícalos</li>
                                     <li>Pica también la cebolla e incorpóralo todo al vaso de la batidora. </li>
                                     <li>Añade la mitad de la mayonesa, la mostaza, el perejil y el jugo de limón.</li>
-                                    <li>Tritura con la batidora y deja la salsa a tu gusto, dependiendo de si la prefieres menos grumosa, de textura suave y homogénea, o si te gusta sentir los trocitos de cada ingrediente, en cuyo caso deberás triturar poco la mezcla.</li>
-                                    <li>Saca la batidora del vaso, añade la mitad restante de la mayonesa y mézclalo todo junto con una cucharilla.</li>
+                                    <li>Tritura con la batidora y deja la salsa a tu gusto, dependiendo de si la
+                                        prefieres menos grumosa, de textura suave y homogénea, o si te gusta sentir los
+                                        trocitos de cada ingrediente, en cuyo caso deberás triturar poco la mezcla.</li>
+                                    <li>Saca la batidora del vaso, añade la mitad restante de la mayonesa y mézclalo
+                                        todo junto con una cucharilla.</li>
                                 </ol>
                             </div>
+                            <!-- Fin de Preparación -->
                         </div>
                     </div>
-                    </div>
-                    <div>
-                    <h3 class="Main__TitulosRecetas">Ensalada de Merluza Negra y Vegetales(Caponata di Pesce)</h3>
+                </div>
+                <!-- fin de Carta -->
+                <!-- Carta -->
+                <div>
+                    <!--Nombre Receta -->
+                    <h3 class="Main__NombreRecetas">Ensalada de Merluza Negra y Vegetales(Caponata di Pesce)</h3>
+                    <!--Fin de Nombre Receta -->
                     <div class="Main__CartaReceta card bg-dark">
-                        <img src="../imagenes/Receta6.jpg" alt="Plato con Ensalada de Merluza Negra y Vegetales" class="Main__imagenesRecetas card-img-top">
+                        <!-- Imagen Receta -->
+                        <img src="../imagenes/Receta6.jpg" alt="Plato con Ensalada de Merluza Negra y Vegetales"
+                            class="Main__imagenesRecetas card-img-top">
+                        <!-- Fin de Imagen Receta -->
                         <div class="Main__IngredientesPasos d-flex flex-column flex-md-row card-body">
+                            <!-- Ingredientes -->
                             <div class=" card-text">
                                 <h5 class="Main__SubtitulosRecetas">Ingredientes</h5>
                                 <ul>
@@ -277,10 +392,16 @@
                                     <li>4 Ajies en Vinagre Latillan</li>
                                 </ul>
                             </div>
+                            <!-- Fin de Ingredientes -->
+                            <!-- Preparación -->
                             <div class=" card-text">
                                 <h5 class="Main__SubtitulosRecetas">Pasos a Seguir</h5>
                                 <ol>
-                                    <li>Coloque las galletas marineras en una fuente y remójelas con el vino blanco dulce, vinagre, unas cucharadas de aceite de oliva y sal, mezcle con las manos, espolvoree con azúcar y las alcaparras, mezcle nuevamente, deje reposar solo unos minutos. Cuando comiencen a ablandarse rómpalas por la mitad con las manos.</li>
+                                    <li>Coloque las galletas marineras en una fuente y remójelas con el vino blanco
+                                        dulce, vinagre, unas cucharadas de aceite de oliva y sal, mezcle con las manos,
+                                        espolvoree con azúcar y las alcaparras, mezcle nuevamente, deje reposar solo
+                                        unos minutos. Cuando comiencen a ablandarse rómpalas por la mitad con las manos.
+                                    </li>
                                     <li>Cocine la merluza negra al vapor.</li>
                                     <li>Blanquee las vieiras en abundante agua hirviendo con sal.</li>
                                     <li>Corte los ajíes en vinagre en trozos.</li>
@@ -291,16 +412,27 @@
                                     <li>Lave bien las hojas de lechuga y escarola, luego escúrralas y séquelas.</li>
                                 </ol>
                             </div>
+                            <!-- Fin de Preparación -->
                         </div>
                     </div>
-                    </div>
                 </div>
-                <div class="d-flex flex-column flex-xl-row ">
-                    <div>
-                    <h3 class="Main__TitulosRecetas">Omelette de Pimientos</h3>
+                <!-- fin de Carta -->
+            </div>
+            <!-- Fin de Par de Cartas -->
+            <!-- Par de Cartas -->
+            <div class="d-flex flex-column flex-xl-row ">
+                <!-- Carta -->
+                <div>
+                    <!--Nombre Receta -->
+                    <h3 class="Main__NombreRecetas">Omelette de Pimientos</h3>
+                    <!--Fin de Nombre Receta -->
                     <div class="Main__CartaReceta card bg-dark">
-                        <img src="../imagenes/Receta7.jpg" alt="Plato con Omelette de Pimientos" class="Main__imagenesRecetas card-img-top">
+                        <!-- Imagen Receta -->
+                        <img src="../imagenes/Receta7.jpg" alt="Plato con Omelette de Pimientos"
+                            class="Main__imagenesRecetas card-img-top">
+                        <!-- Fin de Imagen Receta -->
                         <div class="Main__IngredientesPasos d-flex flex-column flex-md-row card-body">
+                            <!-- Ingredientes -->
                             <div class=" card-text">
                                 <h5 class="Main__SubtitulosRecetas">Ingredientes</h5>
                                 <ul>
@@ -316,82 +448,119 @@
                                     <li>Pimienta</li>
                                 </ul>
                             </div>
+                            <!-- Fin de Ingredientes -->
+                            <!-- Preparación -->
                             <div class=" card-text">
                                 <h5 class="Main__SubtitulosRecetas">Pasos a Seguir</h5>
                                 <ol>
-                                    <li>Calentar en una cazuela una cucharada de aceite y freír el tocino cortado en pedacitos.</li>
+                                    <li>Calentar en una cazuela una cucharada de aceite y freír el tocino cortado en
+                                        pedacitos.</li>
                                     <li> Añadir las cebollas picadas y el diente de ajo picadito.</li>
-                                    <li>Cuando empiecen a dorar, añadir también los jitomates y los pimientos. Añadir el tomillo y laurel, y condimentar con sal y pimienta.</li>
-                                    <li>Batir los huevos y verter la mezcla sobre los pimientos. Dejar cocinar unos minutos.</li>
+                                    <li>Cuando empiecen a dorar, añadir también los jitomates y los pimientos. Añadir el
+                                        tomillo y laurel, y condimentar con sal y pimienta.</li>
+                                    <li>Batir los huevos y verter la mezcla sobre los pimientos. Dejar cocinar unos
+                                        minutos.</li>
                                 </ol>
                             </div>
+                            <!-- Fin de Preparación -->
                         </div>
-                        </div>
-                    </div>
-                    <div>
-                    <h3 class="Main__TitulosRecetas">Pizza con Base de Coliflor</h3>
-                    <div class="Main__CartaReceta card bg-dark">
-                    <img src="../imagenes/Receta8.jpg" alt="Tabla con Pizza con Base de Coliflor" class="Main__imagenesRecetas card-img-top">
-                    <div class="Main__IngredientesPasos d-flex flex-column flex-md-row card-body">
-                        <div class=" card-text">
-                            <h5 class="Main__SubtitulosRecetas">Ingredientes</h5>
-                            <ul>
-                                <li>170 g de Coliflor Latillan</li>
-                                <li>1 huevo</li>
-                                <li>15 g de Lino Molido o Almendra Molida</li>
-                                <li>Pimienta negra molida</li>
-                                <li>Sal</li>
-                                <li>Ajo Granulado</li>
-                                <li>Queso Parmesano al gusto </li>
-                            </ul>
-                        </div>
-                        <div class=" card-text">
-                            <h5 class="Main__SubtitulosRecetas">Pasos a Seguir</h5>
-                            <ol>
-                                <li>Precalentar el horno a 180ºC y preparar una bandeja con papel sulfurizado, una lámina de silicona o algo similar.</li>
-                                <li>Cortar los ramilletes de la coliflor hasta sacar unos 170-180 g.</li>
-                                <li>Lavar y escurrir bien.</li>
-                                <li>Triturar la coliflor con una picadora o procesador de alimentos, o usar un rallador de queso fino, hasta dejar textura granulada fina, estilo cuscús.</li>
-                                <li>Disponer en un recipiente, añadir el huevo, las semillas de lino o almendra molida, la sal, hierbas al gusto, ajo granulado, queso y salpimentar.</li>
-                                <li>Mezclar todo muy bien hasta tener una masa homogénea, húmeda pero maleable.</li>
-                                <li>Extender en la bandeja con ayuda de una espátula o una cuchara grande, dando forma redondeada o rectangular, dejándola lo más fina posible.</li>
-                                <li>Hornear unos 20 minutos o hasta que se dore y esté seca al tacto. Esperar un poco a que se enfríe ligeramente y extender los ingredientes que se quieran.</li>
-                            </ol>
-                            </div>
-                         </div>
-                     </div>
                     </div>
                 </div>
-        </main>           
+                <!-- fin de Carta -->
+                <!-- Carta -->
+                <div>
+                    <!-- Nombre Receta -->
+                    <h3 class="Main__NombreRecetas">Pizza con Base de Coliflor</h3>
+                    <!--Fin de Nombre Receta -->
+                    <div class="Main__CartaReceta card bg-dark">
+                        <!-- Imagen Receta -->
+                        <img src="../imagenes/Receta8.jpg" alt="Tabla con Pizza con Base de Coliflor"
+                            class="Main__imagenesRecetas card-img-top">
+                        <!-- Fin de Imagen Receta -->
+                        <div class="Main__IngredientesPasos d-flex flex-column flex-md-row card-body">
+                            <!-- Ingredientes -->
+                            <div class=" card-text">
+                                <h5 class="Main__SubtitulosRecetas">Ingredientes</h5>
+                                <ul>
+                                    <li>170 g de Coliflor Latillan</li>
+                                    <li>1 huevo</li>
+                                    <li>15 g de Lino Molido o Almendra Molida</li>
+                                    <li>Pimienta negra molida</li>
+                                    <li>Sal</li>
+                                    <li>Ajo Granulado</li>
+                                    <li>Queso Parmesano al gusto </li>
+                                </ul>
+                            </div>
+                            <!-- Fin de Ingredientes -->
+                            <!-- Preparación -->
+                            <div class=" card-text">
+                                <h5 class="Main__SubtitulosRecetas">Pasos a Seguir</h5>
+                                <ol>
+                                    <li>Precalentar el horno a 180ºC y preparar una bandeja con papel sulfurizado, una
+                                        lámina de silicona o algo similar.</li>
+                                    <li>Cortar los ramilletes de la coliflor hasta sacar unos 170-180 g.</li>
+                                    <li>Lavar y escurrir bien.</li>
+                                    <li>Triturar la coliflor con una picadora o procesador de alimentos, o usar un
+                                        rallador de queso fino, hasta dejar textura granulada fina, estilo cuscús.</li>
+                                    <li>Disponer en un recipiente, añadir el huevo, las semillas de lino o almendra
+                                        molida, la sal, hierbas al gusto, ajo granulado, queso y salpimentar.</li>
+                                    <li>Mezclar todo muy bien hasta tener una masa homogénea, húmeda pero maleable.</li>
+                                    <li>Extender en la bandeja con ayuda de una espátula o una cuchara grande, dando
+                                        forma redondeada o rectangular, dejándola lo más fina posible.</li>
+                                    <li>Hornear unos 20 minutos o hasta que se dore y esté seca al tacto. Esperar un
+                                        poco a que se enfríe ligeramente y extender los ingredientes que se quieran.
+                                    </li>
+                                </ol>
+                            </div>
+                            <!-- Fin de Preparación -->
+                        </div>
+                    </div>
+                </div>
+                <!-- fin de Carta -->
+            </div>
+            <!-- Fin de Par de Cartas -->
+        </main>
+        <!-- Fin del Main -->
     </div>
-    <footer class="bg-dark container-fluid row gx-0 text-white Footer" >
-      <p class="Footer__Copyright col-5">Promartie SRL ©</p>
-      <div class=" col-1 offset-1 col-md-1" >
-          <img src="../imagenes/TACC.png" alt="SinTacc" class="Footer__TamañoIconos--TAAC col-6">
+    <!-- Estructura Principal de la Pagina -->
+    <!-- Footer -->
+    <footer class="bg-dark container-fluid row gx-0 text-white Footer">
+        <!-- Copyright -->
+        <p class="Footer__Copyright col-5">Promartie SRL ©</p>
+        <!-- Fin de Copyright -->
+        <!-- Iconos Informativos -->
+        <div class=" col-1 offset-1 col-md-1">
+            <img src="../imagenes/TACC.png" alt="SinTacc" class="Footer__TamañoIconos--TAAC col-6">
         </div>
-        <div class=" col-1 col-md-1" >
-          <img src="../imagenes/Kosher.png" alt="KosherCertificado" class="Footer__TamañoIconos--Kosher col-6">
+        <div class=" col-1 col-md-1">
+            <img src="../imagenes/Kosher.png" alt="KosherCertificado" class="Footer__TamañoIconos--Kosher col-6">
         </div>
-      <div class="Footer__RedesSociales col-1 offset-2 col-md-1 RedesContainer" >
-          <ul class="RedesUl">
-              <li class="Footer__IconosRedes">
-                  <a href="https://www.facebook.com/Demartie" class="Facebook Footer__IconosRedes--Animacion">
-                    <i class="fab fa-facebook-square"></i>
-                </a>
-            </li>
-          </ul>
-      </div>
-      <div class="Footer__RedesSociales col-1 col-md-1 RedesContainer" >
-      <ul class="RedesUl">
-        <li class="Footer__IconosRedes">
-            <a href="https://www.instagram.com/demartiearg/" class="Facebook Footer__IconosRedes--Animacion">
-                <i class="fab fa-instagram"></i>
-            </a>
-        </li>
-    </ul>
-  </div>
-  </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!-- Fin Iconos Informativos -->
+        <!-- Iconos Redes Sociales -->
+        <div class="Footer__RedesSociales col-1 offset-2 col-md-1 RedesContainer">
+            <ul class="RedesUl">
+                <li class="Footer__IconosRedes">
+                    <a href="https://www.facebook.com/Demartie" class="Facebook Footer__IconosRedes--Animacion">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="Footer__RedesSociales col-1 col-md-1 RedesContainer">
+            <ul class="RedesUl">
+                <li class="Footer__IconosRedes">
+                    <a href="https://www.instagram.com/demartiearg/" class="Facebook Footer__IconosRedes--Animacion">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- Fin Iconos Redes Sociales -->
+    </footer>
+    <!-- Fin del footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
-</body>
+
 </html>

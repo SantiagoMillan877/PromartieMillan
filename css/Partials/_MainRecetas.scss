@@ -1,29 +1,44 @@
+/* Propiedades cambiadas en Seccion Recetas*/
 .Main {
+    /* Propiedades de Encabezado de Sección Recetas*/
     &__TituloRecetas{
         font-size: 1.5em;
         font-family: monospace;
         letter-spacing: 0.1em;
         margin: 1em 0em 1em 1em;
     }
+    /* Fin de Propiedades de Encabezado de Sección Recetas*/
+    /* Separacion de Recetas*/
     &__CartaReceta {
         margin: 1em 2em 1em 2em;
     }
+    /* Fin de Separacion de Recetas*/
+    /* Separacion de Recetas*/
+    /* Formato y color de textos*/
     &__IngredientesPasos {
         color: $Blanco;
         font-family: cursive;    
     }
-    &__TitulosRecetas{
+    /* Fin de Formato y color de textos*/
+    /* Formato de los nombres de las recetas*/
+    &__NombreRecetas{
         font-size: 1.5em;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         letter-spacing: 0.2em;
         margin: 1em 0em 0em 1em;
     }
+    /* Fin de Formato de los nombres de las recetas*/
+    /* Formato de los subtitulos en las recetas*/
     &__SubtitulosRecetas{
         font-size: 1.6em;
         font-style: italic;
         letter-spacing: 0.1em;
     }
+    /* Fin de Formato de los subtitulos en las recetas*/
+    /* Separacion de imagen de la receta respecto al texto*/
     &__ImagenesRecetas{
         padding: 1em;
     }
+    /* Fin de Separacion de imagen de la receta respecto al texto*/
 }
+/* Fin de Propiedades cambiadas en Seccion Recetas*/

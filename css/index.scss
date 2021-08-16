@@ -1,3 +1,4 @@
+/* Imports de otros .SCSS*/
 @import "./Partials/Variables";
 @import "./Partials/Header";
 @import "./Partials/Nav";
@@ -9,13 +10,19 @@
 @import "./Partials/Footer";
 @import "./Partials/MediaQuerrysChicas";
 @import "./Partials/MediaQuerrysGrandes";
+/* Fin de Imports de otros .SCSS*/
+/* Propiedades globales*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
 }
-#Main__QuitaEstilos {
-    list-style-type: none;
+ /* Propiedades de todos los Main*/
+.Main{
+    background-color: rgb(7, 83, 13);
+    background-image: url(../imagenes/FondoMain.png);
 }
+/* Fin de Propiedades de todos los Main*/
+/* Fin de Propiedades globales*/
 
 

@@ -1,4 +1,6 @@
+/* Propiedades cambiadas en Seccion Nuestra Historia*/
 .Main{
+    /* Propiedades del titulo*/
     &__TituloHistoria{
         font-family: monospace;
         letter-spacing: 0.2em;
@@ -6,15 +8,23 @@
         font-style: italic;
         margin: 1em 0em 1em 1em;
     }
+    /* Fin de Propiedades del titulo*/
+    /* Propiedades de los textos*/
     &__ParrafoHistoria {
         color: $Blanco;
         font-family: cursive;
         font-size: 1.05em;
     }
+     /* Fin de Propiedades de los textos*/
+     /* Separacion de las cartas entre ellas*/
     &__CartasHistoria {
         margin: 1em 2em 1em 2em;
     }
+    /* Fin de Separacion de las cartas entre ellas*/
+    /* Separacion de imagen respecto al texto*/
     &__ImagenHistoria{
         padding: 1em;
     }
+    /* Fin de Separacion de imagen respecto al texto*/
 }
+/* Fin de Propiedades cambiadas en Seccion Nuestra Historia*/

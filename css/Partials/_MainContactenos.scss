@@ -1,24 +1,28 @@
+/* Propiedades cambiadas en Seccion Contactenos*/
 .Main {
-    background-color: rgb(7, 83, 13);
-    background-image: url(../imagenes/FondoMain.png);
+        /* Propiedades de los textos en el formulario*/
     &__FormularioTexto {
         font-size: 1em;
+        color: $Blanco;
         border: none;
         font-family: cursive;
         letter-spacing: 0.1em;
         }
+        /* Fin de Propiedades de los textos en el formulario*/
+        /* Propiedades del formulario*/
      &__FormularioTamaño{
         background-color: $Negro;
-        color: $Blanco;
          border: solid;
-        border-color: forestgreen;
+        border-color: $BordesColor;
         padding: 2em;
         width: ($porcentajetotal)-20;
     }   
+        /* Fin de Propiedades del formulario*/
+        /* Propiedades de los imputs*/
     &__FormularioInput--Botones {
         width: 10em;
         height: 3em;
-        border: solid forestgreen 0.3em;
+        border: solid $BordesColor 0.3em;
         background-color: $Negro;
         color: $Blanco;
         border-radius: ($porcentajetotal/5)-5;
@@ -32,5 +36,7 @@
     &__FormularioInput--Textarea{
         height: 15em;
         width: ($porcentajetotal)-10;
-        }    
+        }
+        /* Fin de Propiedades de los imputs*/    
 }
+/* Fin de Propiedades cambiadas en Seccion Contactenos*/
