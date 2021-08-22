@@ -29,17 +29,18 @@
             transition: .2s;
         }
         &--Animacion:hover{
-            transform: translate(0em) scale(1.05);
             box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 4);
             filter: none;
         }
     }
-    &__RedesSociales {
-        margin: 0;
-    }
+    
     &__DivIconos {
         margin: 0 0 0 1em;
     }
+    .RedesUl {
+        padding: 0em;
+    }
     /* Fin de Propiedades de iconos de Redes Sociales*/
+    
 }
 /* Fin de Propiedades de los elementos del Footer*/

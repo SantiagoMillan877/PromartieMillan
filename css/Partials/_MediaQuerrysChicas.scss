@@ -84,11 +84,15 @@
             width:($porcentajetotal)-45;
         }
         /* Fin de Tamaño de los iconos informativos*/
-        /* Separacion de los iconos de redes sociales*/
-        &__RedesSociales {
-            margin: 0 0 0 1em;
+        /* Propiedades de iconos de Redes Sociales*/
+        .RedesContainer {
+            width: 3em;
         }
-        /* Fin de Separacion de los iconos de redes sociales*/
+        /* Fin de Propiedades de iconos de Redes Sociales*/
     } 
+
+
+
+    
 }
 /* Fin de Propiedades cambiadas a partir de 768px*/
