@@ -1,5 +1,19 @@
-.Header__Logo{
+/* Propiedades cambiadas en el Header*/
+.Header{
     /* Tamaño de Logos */
-    width: ($porcentajetotal);
-    /* Fin de Tamaño de Logos */
+    &__Logo{
+        width: ($porcentajetotal);
+    }
+    &__Ancor{
+        &--Promartie{
+            width: 6em;
+        }
+     /* Fin de Tamaño de Logos */ 
+     /*Ocultacion de Los Demas Logos*/
+        &--Otros{
+            display: none;
+        }
+    /*Fin de Ocultacion de Los Demas Logos*/
+    }
 }
+/* Fin de Propiedades cambiadas en el Header */

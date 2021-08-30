@@ -26,17 +26,23 @@
         background-color: $Negro;
         color: $Blanco;
         border-radius: ($porcentajetotal/5)-5;
+        margin: 2em 0em 0em 0em;
     }
     &__FormularioInput{
         border-radius: 0.38em;
         margin: 1em;
-        width: ($porcentajetotal/2);
+        width: ($porcentajetotal/2)+40;
         height: 2em;
         }
     &__FormularioInput--Textarea{
         height: 15em;
         width: ($porcentajetotal)-10;
         }
-        /* Fin de Propiedades de los imputs*/    
+        /* Fin de Propiedades de los imputs*/
+        /* Propiedades del Mapa */
+    &__Mapa{
+        margin: 1em 0em 1em 3em;
+    } 
+        /* Fin de Propiedades del Mapa */   
 }
 /* Fin de Propiedades cambiadas en Seccion Contactenos*/

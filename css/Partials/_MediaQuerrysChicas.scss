@@ -2,7 +2,7 @@
 @media only screen and (min-width: 550px){
     /* Tamaño de los ancor en los logos*/
     .Header__Ancor{
-        width:($porcentajetotal)-70 ;
+        width:($porcentajetotal)-80 ;
     }
     /* Fin de Tamaño de los ancor en los logos*/   
     /* Tamaño del anuncio*/
@@ -10,6 +10,17 @@
         height: 5em;
     }
     /* Fin de Tamaño del anuncio*/
+    .Main{
+        /* Contactenos */
+        /* Tamaño y Bordes de Mapa */
+        &__Mapa{
+            width: 35em;
+            margin: 0em;
+            padding: 1em 0em 1em 3em;
+        }
+        /* Fin de Tamaño y Bordes de Mapa */
+        /* Contactenos */
+    }
     /* Tamaño de los iconos informativos*/
     .Footer{
         &__TamañoIconos--Kosher{
@@ -24,12 +35,18 @@
 /* Fin de Propiedades cambiadas a partir de 550px*/
 /* Propiedades cambiadas a partir de 768px*/
 @media only screen and (min-width: 768px){
+    .Header{
     /* Tamaño de los ancor en los logos*/
-    .Header__Ancor{
-        width:($porcentajetotal/5)-8;
-    } 
-    /* Fin de Tamaño de los ancor en los logos*/  
-
+        &__Ancor{
+            width:($porcentajetotal/5)-8;
+    /* Fin de Tamaño de los ancor en los logos*/
+    /*Aparicion de Los Demas Logos*/
+        &--Otros{
+            display: inline;
+        }
+    /*Fin de Aparicion de Los Demas Logos*/
+        }
+    }   
     .Nav{
         /* Eliminacion del anuncio*/
         &__Anuncio{

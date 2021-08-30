@@ -40,6 +40,11 @@
     /* Fin de Propiedades cambiadas a partir de 992px*/
     /* Propiedades cambiadas a partir de 1200px*/
 @media only screen and (min-width: 1200px){
+     /* Tamaño de los ancor en los logos*/
+     .Header__Ancor{
+        width: ($porcentajetotal/10);
+    }
+    /* Fin de Tamaño de los ancor en los logos */
     .Main{
         /* Contactenos */
         /* Tamaño del mapa*/
@@ -48,6 +53,11 @@
             margin: 0em 0em 2em 8em;
         }
         /* Fin de Tamaño del mapa*/
+        /* Tamaño de Imputs Formulario*/
+        &__FormularioInput{
+            width: ($porcentajetotal/2);
+            }
+        /* Fin de Tamaño de Imputs Formulario*/
         /* Fin de Contactenos */
         /* Nuestros Productos */
         /* Tamaño de textos */
