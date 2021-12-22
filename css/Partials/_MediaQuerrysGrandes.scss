@@ -169,6 +169,34 @@
         }
         /* Fin de Tamaño de cartas */
         /* Fin de Recetas */
+        /* Mercado */
+        /* Tamaño de titulo */
+        &__aclaracio{
+            font-size: 2.5em;
+        }
+        /* Fin de Tamaño de titulo */
+        /* Tamaño de cartas */
+        &__CartaProducto{
+            width:($porcentajetotal)-20;
+        }
+        /* Fin de Tamaño de cartas */
+        /* Formato de los nombres del Mercado*/
+        &__NombreProducto{
+        font-size: 2em;
+        width: 14em;
+        }
+        /* Fin de Formato de los nombres del Mercado*/
+        /* Formato de los subtitulos en el mercado*/
+        &__SubtitulosProducto{
+        font-size: 1.9em;
+        }
+        /* Fin de Formato de los subtitulos en el mercado*/
+        /* Separacion de imagen de la receta respecto al texto*/
+        &__imagenesProducto{
+        height: 30em;
+        }
+        /* Fin de Separacion de imagen del Mercado respecto al texto*/
+        /* Fin de Mercado */
     }
 }
 /* Fin de Propiedades cambiadas a partir de 2000px*/

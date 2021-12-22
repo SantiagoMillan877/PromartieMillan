@@ -1,0 +1,47 @@
+/* Propiedades cambiadas en Seccion Mercado*/
+.Main {
+    /* Propiedades de Encabezado de Sección mercado*/
+    &__aclaracion{
+        font-size: 1.5em;
+        font-family: monospace;
+        letter-spacing: 0.1em;
+        margin: 1em 0em 1em 2em;
+    }
+    /* Fin de Propiedades de Encabezado de Sección mercado*/
+    /* Separacion de Recetas*/
+    &__CartaProducto {
+        margin: 1em 2em 1em 2em;
+        width: 22em;
+    }
+    /* Fin de Separacion de Recetas*/
+    /* Separacion de Recetas*/
+    /* Formato y color de textos*/
+    &__ProductosDatos {
+        color: $Blanco;
+        font-family: cursive;    
+    }
+    /* Fin de Formato y color de textos*/
+    /* Formato de los nombres del Mercado*/
+    &__NombreProducto{
+        font-size: 1.5em;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 0.2em;
+        margin: 1em 0em 0em 1.2em;
+        width: 14em;
+    }
+    /* Fin de Formato de los nombres del Mercado*/
+    /* Formato de los subtitulos en el mercado*/
+    &__SubtitulosProducto{
+        font-size: 1.6em;
+        font-style: italic;
+        letter-spacing: 0.1em;
+    }
+    /* Fin de Formato de los subtitulos en el mercado*/
+    /* Separacion de imagen de la receta respecto al texto*/
+    &__imagenesProducto{
+        height: 23em;
+    }
+    
+    /* Fin de Separacion de imagen del Mercado respecto al texto*/
+}
+/* Fin de Propiedades cambiadas en Seccion Mercado*/
